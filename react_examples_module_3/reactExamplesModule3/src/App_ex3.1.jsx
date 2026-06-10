@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 function App() {
   // Delcare a new state variable "count"
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div>
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

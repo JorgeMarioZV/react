@@ -8,5 +8,4 @@ function ref() {
     <App/>
   );
 }
-
 setInterval(ref, 1000);

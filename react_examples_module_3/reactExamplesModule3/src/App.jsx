@@ -1,25 +1,12 @@
-// Example 3.1: Hooks
+// Example 3.6: Fetch Data using Axios
 
-import React, { useState } from 'react'
-// import './App.css'
+import React, { useEffect, useEffect } from 'react';
+
 
 function App() {
-  // Delcare a new state variable "count"
-  const [count, setCount] = useState(0)
 
-  return (
-    <div>
-      <p>You clicked {count} many times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click Me
-      </button>
-    </div>
-  );
+
+  
 }
 
-export default App
-
-
-Could you run that by me again?
-Am I comming through OK?
-Product Management
+export default App;
